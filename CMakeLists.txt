@@ -13,10 +13,6 @@ list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR})
 
 find_package(LIBIQTRANSFER)
 
-if (NOT LIBIQTRANSFER_FOUND)
-    message(FATAL_ERROR "LIBIQTRANSFER development files not found...")
-endif ()
-
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
 

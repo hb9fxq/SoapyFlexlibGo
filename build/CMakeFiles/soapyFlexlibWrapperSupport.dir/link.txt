@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++11 -O3 -DNDEBUG -shared  -o libsoapyFlexlibWrapperSupport.so CMakeFiles/soapyFlexlibWrapperSupport.dir/Registration.cpp.o CMakeFiles/soapyFlexlibWrapperSupport.dir/Version.cpp.o   -L/home/f102/wrk/sdr_env_gr38/lib  -Wl,-rpath,/home/f102/wrk/sdr_env_gr38/lib: -liqtransfer /home/f102/wrk/sdr_env_gr38/lib/libSoapySDR.so.0.8.0 -Wl,--no-undefined -pthread 

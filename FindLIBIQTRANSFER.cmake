@@ -4,13 +4,13 @@ if(NOT LIBIQTRANSFER_FOUND)
 
         find_path(LIBIQTRANSFER_INCLUDE_DIRS NAMES libiqtransfer.h
                 PATHS
-                /usr/include
+                /home/f102/wrk/sdr_env_gr38/include
                 /usr/local/include
                 )
 
         find_library(LIBIQTRANSFER_LIBRARIES NAMES iqtransfer
                 PATHS
-                /usr/lib
+                /home/f102/wrk/sdr_env_gr38/lib
                 /usr/local/lib
                 )
 
